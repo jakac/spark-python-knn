@@ -23,7 +23,7 @@ class PyTest(TestCommand):
 
 
 setup(name='spark-python-knn',
-      version='0.0.2',
+      version='0.0.3',
       description='Function for computing K-NN in Apache Spark',
       author='Matej Jakimov',
       author_email='jakimov@gaussalgo.com',
@@ -34,6 +34,5 @@ setup(name='spark-python-knn',
           'scikit-learn'
       ],
       tests_require=['pytest'],
-      cmdclass={'test': PyTest},
-      namespace_packages=['gaussalgo']
+      cmdclass={'test': PyTest}
      )
