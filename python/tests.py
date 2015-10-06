@@ -28,7 +28,7 @@ def test_np_vectors():
 
     neighbors = compute_neighbors(left, right, top_n=2).collect()
     one = [x for x in neighbors if x[0] == 1][0]
-    print neighbors
+    #print neighbors
     assert one[1][0][0] == 5 and one[1][1][0] == 6
 
 

@@ -1,6 +1,9 @@
 # Spark Python K-nn
 Simple but memory efficient function for computation of K nearest neighbors.
 
+## Requires
+Python 2.7. Installs Numpy, scikit-learn.
+
 ## Install
 Add gaussalgo/python-knn:1.0.0 to requirements of your app:
 
