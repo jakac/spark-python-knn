@@ -5,9 +5,9 @@ Simple but memory efficient function for computation of K nearest neighbors.
 Installs Numpy, scikit-learn.
 
 ## Install
-Add gaussalgo/python-knn:1.0.0 to requirements of your app:
+Add gaussalgo/spark-python-knn:1.0.0 to requirements of your app:
 
-    $SPARK_HOME/bin/pyspark --packages gaussalgo:python-knn:1.0.0
+    $SPARK_HOME/bin/pyspark --packages gaussalgo:spark-python-knn:0.0.1
     
 ## Usage
 
