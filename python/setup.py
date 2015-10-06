@@ -1,6 +1,3 @@
-# Python setup file. An example can be found at:
-# https://github.com/pypa/sampleproject/blob/master/setup.py
-
 from setuptools import setup, find_packages
 from setuptools.command.test import test as TestCommand
 import sys
@@ -25,8 +22,8 @@ class PyTest(TestCommand):
         sys.exit(errno)
 
 
-setup(name='gaussalgo-spark-python-knn',
-      version='0.0.1',
+setup(name='spark-python-knn',
+      version='0.0.2',
       description='Function for computing K-NN in Apache Spark',
       author='Matej Jakimov',
       author_email='jakimov@gaussalgo.com',
