@@ -26,7 +26,7 @@ class PyTest(TestCommand):
 
 
 setup(name='gaussalgo-spark-python-knn',
-      version='1.0.0',
+      version='0.0.1',
       description='Function for computing K-NN in Apache Spark',
       author='Matej Jakimov',
       author_email='jakimov@gaussalgo.com',
